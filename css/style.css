@@ -65,10 +65,12 @@ h4 {
                                         ÉLÉMENTS SECTONS ET AUTRES
 ==========================================================================================*/
 
-header {
-    padding-top: 35px;
-    padding-top: 35px;
+/*----nav----*/
 
+nav {
+    background-color: #FFFFFF;
+    padding-top: 35px;
+    padding-top: 35px;
 }
 
 ul span {
@@ -83,6 +85,7 @@ ul {
     gap: 30px;
 }
 
-
-
+a {
+    text-decoration: none; 
+}
 
