@@ -28,3 +28,40 @@ body {
 }
 
 /*---------TITRE ET PARAGRAPHES------*/
+
+h1 {
+   font-family: "Dosis", sans-serif;
+    font-size: 50px;
+
+}
+
+h2, h3 {
+    font-family: "Dosis", sans-serif;
+   
+}
+
+.Titre {
+    font-size: 40px;
+}
+
+.titresectin {
+    font-size: 36px;
+}
+
+ h3 {
+    font-size: 24px;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+
+
+/* ==========================================================================================================================================================
+                                        ÉLÉMENTS SECTONS ET AUTRES
+==========================================================================================*/
+
+header {
+    
+}
