@@ -25,6 +25,7 @@ html {
 
 body {
     font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
     margin: 0;
     padding: 0;
 }
@@ -130,6 +131,7 @@ a span {
     align-items: center;
     justify-content: center;
     width: 100%;
+
 }
 
 .content {
@@ -137,24 +139,105 @@ a span {
     background-color: black;
     color: #FFFFFF;
     border-radius: 10px;
-    background: rgba(0, 0, 0,.5);
+    background: rgba(0, 0, 0, .5);
     padding-left: 36px;
     padding-right: 36px;
     padding-bottom: 44px;
     padding-top: 44px;
-   
+
 
 }
+
 .content p {
     font-size: 24px;
     font-weight: bold;
     margin: 0;
+    padding-top: 10spx;
 }
 
 .content h1 {
     font-size: 50px;
     margin: 0;
-} 
+}
 
 
-/*----Section hero----*/
+/*----Section Option----*/
+
+.options {
+    border-bottom: 15px;
+    border-color: #FFFFFF;
+    background-color: #EEEEEE;
+    padding-top: 87px;
+    padding-bottom: 80px;
+}
+
+.options h2 {
+    font-size: 36px;
+    color: #0E5EA1;
+    padding-bottom: 37px;
+    margin: 0;
+}
+
+.options .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.colonne {
+    padding: 20px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border: 5px, solid, #0E5EA1;
+
+}
+
+.colonne p {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0 0 10px;
+    line-height: 160%;
+}
+
+.options a {
+    font-family: "Dosis", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: 20px;
+    align-self: center;
+    background: #B7B7B7;
+    padding: 11px 20px;
+    border-radius: 10px;
+}
+
+.options a:hover {
+    background-color: #0E5EA1;
+    color: #FFFFFF;
+}
+
+/*----Section Option----*/
+
+.bannière {
+    background-color: #EEEEEE;
+    padding-bottom: 83px;
+}
+
+/*----Footer----*/
+
+footer {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
